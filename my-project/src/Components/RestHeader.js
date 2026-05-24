@@ -13,7 +13,7 @@ export default function RestHeader(){
             </div>
             <div>
                 <Link to="/Checkout">
-                <p>Cart {`(${counter})`}</p>
+                <p className="border border-black bg-white py-3 px-4 rounded-2xl"> Cart {`(${counter})`}</p>
                 </Link>
             </div>
         </div>
